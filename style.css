@@ -1,0 +1,36 @@
+body{
+	background-image: url("img/1.jpg");
+	background-size: cover;
+
+	margin: 0 5%;
+    block-size: auto;
+
+    font-size: 14px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+
+.body__main__article{
+	font-family: cursive;
+    margin: 20px;
+}
+
+.body__main__forMyDarling{
+	width: 65%;
+	color: #000000;
+    font-family: unset;
+    transition: 10s;
+}
+
+.body__main{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+#ex1,#exa{
+	display: none;
+}
